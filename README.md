@@ -11,3 +11,7 @@ It is an AI-powered GenAI chatbot that dynamically adopts a user-defined persona
 - 🌐 Performs **live web searches** to enhance its answers.
 - ⚡ Blazing fast interface using Streamlit and FastAPI.
 - 🔄 Modular architecture powered by LangChain & LangGraph.
+
+## UI Screenshot
+![image](https://github.com/user-attachments/assets/7a3e2505-1af2-4beb-8fbc-619dc47dce52)
+
