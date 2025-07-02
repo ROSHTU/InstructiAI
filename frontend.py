@@ -101,7 +101,7 @@ st.markdown("""
     
     /* Response Card */
     .response-card {
-        background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+        background: linear-gradient(135deg, #1f1c2c 0%, #928dab 100%);
         padding: 2rem;
         border-radius: 15px;
         margin-top: 2rem;
