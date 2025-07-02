@@ -51,7 +51,7 @@ st.markdown("""
     
     /* Card Styles */
     .agent-card {
-        background: white;
+        background: grey;
         padding: 2rem;
         border-radius: 15px;
         box-shadow: 0 5px 20px rgba(0,0,0,0.1);
@@ -312,23 +312,23 @@ with col2:
     </div>
     """, unsafe_allow_html=True)
     
-    # Quick Templates
-    st.markdown("### 🚀 Quick Templates")
-    template_options = {
-        "Code Assistant": "You are an expert programming assistant. Help users with coding problems, debugging, and best practices. Provide clear, well-commented code examples.",
-        "Creative Writer": "You are a creative writing assistant. Help users with storytelling, character development, and creative content creation.",
-        "Data Analyst": "You are a data analysis expert. Help users understand data, create visualizations, and derive insights from datasets.",
-        "Tutor": "You are a patient and knowledgeable tutor. Explain complex topics in simple terms and provide step-by-step guidance."
-    }
+    # # Quick Templates
+    # st.markdown("### 🚀 Quick Templates")
+    # template_options = {
+    #     "Code Assistant": "You are an expert programming assistant. Help users with coding problems, debugging, and best practices. Provide clear, well-commented code examples.",
+    #     "Creative Writer": "You are a creative writing assistant. Help users with storytelling, character development, and creative content creation.",
+    #     "Data Analyst": "You are a data analysis expert. Help users understand data, create visualizations, and derive insights from datasets.",
+    #     "Tutor": "You are a patient and knowledgeable tutor. Explain complex topics in simple terms and provide step-by-step guidance."
+    # }
     
-    selected_template = st.selectbox("Choose a template:", ["Custom"] + list(template_options.keys()))
+    # selected_template = st.selectbox("Choose a template:", ["Custom"] + list(template_options.keys()))
     
-    if selected_template != "Custom" and st.button("📋 Apply Template"):
-        st.session_state.template_prompt = template_options[selected_template]
-        st.rerun()
+    # if selected_template != "Custom" and st.button("📋 Apply Template"):
+    #     st.session_state.template_prompt = template_options[selected_template]
+    #     st.rerun()
     
-    if 'template_prompt' in st.session_state:
-        system_prompt = st.session_state.template_prompt
+    # if 'template_prompt' in st.session_state:
+    #     system_prompt = st.session_state.template_prompt
 
 # Action Button
 st.markdown("### 🚀 Launch Agent")
