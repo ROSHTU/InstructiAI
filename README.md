@@ -13,5 +13,6 @@ It is an AI-powered GenAI chatbot that dynamically adopts a user-defined persona
 - 🔄 Modular architecture powered by LangChain & LangGraph.
 
 ## UI Screenshot
-![image](https://github.com/user-attachments/assets/7a3e2505-1af2-4beb-8fbc-619dc47dce52)
+![image](https://github.com/user-attachments/assets/53e746b7-2a98-4de4-8357-4febc98c1277)
+
 
